@@ -29,8 +29,6 @@ def generate_log(data):
         print(f"Log written to {filename}")
     else:
         raise ValueError("Data should be a list.")
-        
-generate_log(["User logged in", "User updated profile", "Report exported"])
 
 
 def fetch_data():
